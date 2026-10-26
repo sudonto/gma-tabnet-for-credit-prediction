@@ -1,0 +1,12 @@
+{
+  "key": "uci_dccc",
+  "n_samples": 30000,
+  "n_features": 23,
+  "n_positive": 6636,
+  "minority_pct": 22.12,
+  "imbalance_ratio": 3.5,
+  "n_categorical": 0,
+  "n_numeric": 23,
+  "openml_id": 42477,
+  "description": "UCI Default of Credit Card Clients, Taiwan, April-September 2005 (Yeh & Lien, 2009). 30k clients, next-month default as the label."
+}

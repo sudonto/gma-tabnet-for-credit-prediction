@@ -1,0 +1,12 @@
+{
+  "key": "give_me_some_credit",
+  "n_samples": 150000,
+  "n_features": 10,
+  "n_positive": 10026,
+  "minority_pct": 6.684,
+  "imbalance_ratio": 14.0,
+  "n_categorical": 0,
+  "n_numeric": 10,
+  "openml_id": 46929,
+  "description": "Kaggle Give Me Some Credit. 150k borrowers, serious delinquency within two years as the label."
+}

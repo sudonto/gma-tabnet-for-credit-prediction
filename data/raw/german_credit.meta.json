@@ -1,0 +1,12 @@
+{
+  "key": "german_credit",
+  "n_samples": 1000,
+  "n_features": 20,
+  "n_positive": 300,
+  "minority_pct": 30.0,
+  "imbalance_ratio": 2.3,
+  "n_categorical": 13,
+  "n_numeric": 7,
+  "openml_id": 31,
+  "description": "Statlog German Credit Data (UCI). 1000 applicants, 20 attributes."
+}
