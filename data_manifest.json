@@ -1,0 +1,100 @@
+{
+  "uci_dccc": {
+    "openml_id": 42477,
+    "positive_label": "1",
+    "rows": 30000,
+    "features": 23,
+    "positives": 6636,
+    "columns": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6",
+      "x7",
+      "x8",
+      "x9",
+      "x10",
+      "x11",
+      "x12",
+      "x13",
+      "x14",
+      "x15",
+      "x16",
+      "x17",
+      "x18",
+      "x19",
+      "x20",
+      "x21",
+      "x22",
+      "x23"
+    ],
+    "dropped_columns": [],
+    "openml_name": "default-of-credit-card-clients",
+    "openml_version": 1,
+    "cached_sha256": {
+      "uci_dccc.parquet": "6c394a00a5ea4fced9a46aabe2a8ced134a8c2dc02343f40fb5eecd8efc02b96"
+    }
+  },
+  "german_credit": {
+    "openml_id": 31,
+    "positive_label": "bad",
+    "rows": 1000,
+    "features": 20,
+    "positives": 300,
+    "columns": [
+      "checking_status",
+      "duration",
+      "credit_history",
+      "purpose",
+      "credit_amount",
+      "savings_status",
+      "employment",
+      "installment_commitment",
+      "personal_status",
+      "other_parties",
+      "residence_since",
+      "property_magnitude",
+      "age",
+      "other_payment_plans",
+      "housing",
+      "existing_credits",
+      "job",
+      "num_dependents",
+      "own_telephone",
+      "foreign_worker"
+    ],
+    "dropped_columns": [],
+    "openml_name": "credit-g",
+    "openml_version": 1,
+    "cached_sha256": {
+      "german_credit.parquet": "f93c22c446a05034b8c8ffd51c381f8feb6ee38cd2647a5a2394752ea343f3a5"
+    }
+  },
+  "give_me_some_credit": {
+    "openml_id": 46929,
+    "positive_label": "Yes",
+    "rows": 150000,
+    "features": 10,
+    "positives": 10026,
+    "columns": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "age",
+      "NumberOfTime30-59DaysPastDueNotWorse",
+      "DebtRatio",
+      "MonthlyIncome",
+      "NumberOfOpenCreditLinesAndLoans",
+      "NumberOfTimes90DaysLate",
+      "NumberRealEstateLoansOrLines",
+      "NumberOfTime60-89DaysPastDueNotWorse",
+      "NumberOfDependents"
+    ],
+    "dropped_columns": [],
+    "openml_name": "GiveMeSomeCredit",
+    "openml_version": 1,
+    "cached_sha256": {
+      "give_me_some_credit.parquet": "7c2d71cbdcb7553eae5855f4f1e70f832b7b76804efda7513b6cf6782aad4063"
+    }
+  }
+}
